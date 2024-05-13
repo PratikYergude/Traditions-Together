@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome Page</title>
+<style>
+.main {
+    width: 100%;
+    height: 700px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/login\ bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Default background color */
+}
+.box{
+    background-color: #748d92;
+    height: 400px;
+    width: 600px;
+    margin:0 auto ;
+    padding:20px;
+    justify-content:space-evenly;
+    align-items:center;
+    border-radius: 40px;
+    display: flex;
+}
+
+.container {
+    width: 300px; /* Limiting the width of the container */
+    margin: 0 auto; /* Centering the container horizontally */
+    padding: 20px; /* Adding some padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+ /* Adjusting flex direction to stack elements vertically */
+}
+
+.logo {
+    margin-right: 120px;
+    margin-bottom: 60px;
+}
+
+.logo img {
+    width: 190px; /* Adjust the size of the logo */
+    height:180px;
+    border-radius: 100px;
+  
+}
+
+.options {
+    margin-top: auto; /* Aligning the options to the bottom */
+    margin-bottom: 20px; /* Adding some space below the options */
+}
+
+.options a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.information {
+    margin-right: 100px;
+    width: 300px; /* Limiting the width of the information div */
+    padding: 20px; /* Adding some padding */
+    background-color: #d3d9d4; /* Background color for the information div */
+    border-radius: 20px; /* Adding rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a shadow effect */
+}
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="box">
+        <div class="container">
+            <div class="logo">
+                <img src="Homepage IMG/LOGO TRANSPARENT.png" alt="Logo">
+            </div>
+            <div class="information">
+                <!-- Information about your application goes here -->
+                <p>Welcome to our application! This is a brief description of what our application does.</p>
+                <p>Feel free to explore and discover more about our features.</p>
+            </div>
+        </div>
+        <div class="options">
+            <a href="loginpage.html">Login</a>
+            <a href="signuppage.html">Sign Up</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
