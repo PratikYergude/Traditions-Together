@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image:url(img/login\ bg.jpg); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Adjusts the background image size */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    width: 600px;
+    background-color: #748d97;
+    padding: 40px;
+    padding-top: 80px; /* Adjust the top padding for the logo */
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the width of the logo */
+    height: auto;
+    display: block;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form label {
+    width: 30%;
+    padding-right: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="password"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #212431;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #2e3944;
+}
+
+h2 {
+    text-align: center;
+}
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <!-- Your logo here -->
+        <img src="Homepage IMG/LOGO TRANSPARENT.png" alt="Logo">
+    </div>
+    <h2>Sign Up</h2>
+    <form>
+        <div class="form">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Alex" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="" required>
+        </div>
+        <div class="form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="use special symbols" required>
+        </div>
+        <div class="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="abcd@gmail.com" required>
+        </div>
+        <div class="form">
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+        </div>
+        <div class="form">
+            <label for="otp">OTP</label>
+            <input type="password" id="otp" name="otp" required>
+        </div>
+        <div class="form">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <input type="submit" value="Sign Up">
+        <div class="back-button">
+        <a href="welcome.html">Back</a>
+    </form>
+</div>
+</body>
+</html>
