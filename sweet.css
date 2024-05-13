@@ -1,6 +1,6 @@
 
 body {
-    background-color: #adbbda;
+    background-color: #bdcae8;
     font-family: Arial, sans-serif;
     padding-top: 30px;
 }
@@ -14,7 +14,7 @@ body {
 .album-1 {
     width: 250px;
     height:auto;
-    background-color: #f2f2f2;
+    background-color:#BDCAE8;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
