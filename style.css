@@ -15,15 +15,21 @@
     display: flex;
     width: 40%;
     height: 100px;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1 );
 }
 
 .search-container{
     
     height:32px;
     width: 500px;
-    background-color: aliceblue;
+    background-color:white;
     border-radius: 2px;
     display: flex;
+    
 
 
     
@@ -36,13 +42,14 @@
 
 
 }
-.search btn{
-    width:40%;
-    height:100%;
+.icon{
+    width: 10%;
+    height:115%;
     display: flex;
     align-items: center;
     background-color: white;
     justify-content: center;
+    border-radius: 2px;
 }
 
 
@@ -71,9 +78,10 @@
     
 }
 .cart-logo{
-    height: 20px;
-    width: 20px;
-    background-color: white;
+    height: 40px;
+    width: 40px;
+    background-color:;
+    padding-right: 15px;
     
     
 }
