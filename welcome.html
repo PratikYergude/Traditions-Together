@@ -7,7 +7,11 @@
 <style>
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
 #video-bg {
     position: fixed;
     right: 0;
@@ -16,68 +20,75 @@ body {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -1;    
+    z-index: -1;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .container {
-    height: 500px;
-    width: 800px;
-    margin:0 auto ;
-    padding:20px;
-    justify-content:space-evenly;
-    align-items:center;
-    border-radius: 40px;
-    display: flex;
-    background-color: rgba(255,255,255,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0,0.5);
     width: 400px;
     padding: 40px;
     border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
-    margin-right: 120px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .logo img {
     width: 190px;
-    height:180px;
+    height: 180px;
     border-radius: 100px;
-  
+}
+
+.information {
+    width: 100%;
+    padding: 20px;
+    background-color: #d3d9d4;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .options {
-    margin-top: auto;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .options a {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
-    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #212431;
+    border-radius: 5px;
 }
-
-.information {
-    margin-right: 100px;
-    width: 300px;
-    padding: 20px;
-    background-color: #d3d9d4;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.options a:hover{
+    background-color: #2e3944;
 }
 </style>
 </head>
 <body>
     <video autoplay muted loop id="video-bg">
-        <source src="Homepage IMG/bgvideo.mp4" type="video/mp4">
+        <source src="Homepage IMG/bg video1.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-   
-<div class="main">
-    <div class="box">
+
+    <div class="main">
         <div class="container">
             <div class="logo">
                 <img src="Homepage IMG/LOGO TRANSPARENT.png" alt="Logo">
@@ -87,13 +98,11 @@ body {
                 <p>Welcome to our application! This is a brief description of what our application does.</p>
                 <p>Feel free to explore and discover more about our features.</p>
             </div>
-        </div>
-        <div class="options">
-            <a href="loginpage.html">Login</a>
-            <a href="signuppage.html">Sign Up</a>
+            <div class="options">
+                <a href="loginpage.html">Login</a>
+                <a href="signuppage.html">Sign Up</a>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </body>
 </html>
