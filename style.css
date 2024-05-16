@@ -54,7 +54,7 @@
 
 .more{
     position: absolute;
-    display: inline-block;
+    display:inline-flexbox;
     
 
 }
@@ -168,7 +168,8 @@ footer {
 }
 .footer-nav ul li a:hover{
     opacity: 0.7;
-    background-color: black;
+    background-color: white;
+    color:black;
     border-radius: 40px;
     transition: 0.3s;
 }
