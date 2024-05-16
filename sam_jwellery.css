@@ -82,3 +82,59 @@ body {
     font-size: 14px;
     color: #666;
 }
+.card .cta:hover {
+    background-color:#3e8e41;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .card {
+    animation: fadeIn 1s ease-in-out;
+  }
+ 
+
+.star-rating {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.star-rating label:before {
+    content: "★";
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color:#f5c518;
+    transform: scale(1.2);
+}
+
+.star-rating input:checked ~ label:hover,
+.star-rating input:checked ~ label:hover ~ label,
+.star-rating input:checked ~ label:hover ~ label ~ label,
+.star-rating input:checked ~ label:hover ~ label ~ label ~ label {
+    color:#f5c518;
+    transform: scale(1.2);
+}
+
+.star-rating label {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+}
