@@ -1,0 +1,226 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar styling */
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    transition: width 0.4s ease-in-out;
+}
+
+.input:focus {
+    width: 200px;
+}
+
+.search.btn, .btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+}
+
+.search.btn:hover, .btn:hover {
+    background-color: #777;
+}
+
+.more {
+    position: relative;
+}
+
+.more-btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more-btn:hover {
+    background-color: #777;
+}
+
+.more-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    top: 100%;
+    right: 0;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.more-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.more-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.more:hover .more-menu {
+    display: block;
+}
+
+.login .login-btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login .login-btn:hover {
+    background-color: #777;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.cart-logo {
+    height: 24px;
+    margin-right: 5px;
+}
+
+/* Container and card styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px; /* Adjusted for fixed header */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px;
+}
+
+.card .cta {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card .cta:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 40rem;
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-content .content {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li {
+    margin: 0 15px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    color: #aaa;
+}
