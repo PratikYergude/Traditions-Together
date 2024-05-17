@@ -13,18 +13,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 700px;
-    background-image:url(img/login\ bg.jpg); /* Replace 'your-image.jpg' with the path to your image */
+    background-image:url('Homepage IMG/form\ bg\ 2.jpg'); /* Replace 'your-image.jpg' with the path to your image */
     background-size: cover; /* Adjusts the background image size */
     background-position: center; /* Centers the background image */
 }
 
 .container {
+    margin-top: 150px;
+    height: 750px;
     width: 600px;
-    background-color: #748d97;
-    padding: 40px;
-    padding-top: 80px; /* Adjust the top padding for the logo */
+    background-color:rgba(145, 140, 140, 0.8);
+    padding: 20px;
+    padding-top: 30px; /* Adjust the top padding for the logo */
     border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -103,9 +104,9 @@ h2 {
     <form>
         <div class="form">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Alex" required>
+            <input type="text" id="fname" name="firstname" placeholder="name" required>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="" required>
+            <input type="text" id="lname" name="lastname" placeholder="last name" required>
         </div>
         <div class="form">
             <label for="username">Username</label>
@@ -117,7 +118,7 @@ h2 {
         </div>
         <div class="form">
             <label for="mobile">Mobile Number</label>
-            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+            <input type="tel" id="mobile" name="mobile" placeholder="0123456789" pattern="[0-9]{10}" required>
         </div>
         <div class="form">
             <label for="otp">OTP</label>
@@ -125,11 +126,11 @@ h2 {
         </div>
         <div class="form">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" placeholder="********">
         </div>
         <div class="form">
             <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="********" required>
         </div>
         <input type="submit" value="Sign Up">
         <div class="back-button">
