@@ -1,5 +1,5 @@
 body {
-    background-color: #bdcae8;
+    background-color: rosybrown;
     font-family: Arial, sans-serif;
     padding-top: 30px;
 }
@@ -13,7 +13,7 @@ body {
 .album-1 {
     width: 250px;
     height:auto;
-    background-color:#BDCAE8;
+    background-color:#C39EA0;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
@@ -24,16 +24,19 @@ body {
 .album-1:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    
 }
 
 .album-1 img {
     width: 100%;
     height: auto;
     border-bottom: 1px solid #ccc;
+
 }
 
 .album-1-info {
     padding: 10px;
+    text-align: center;
 }
 
 .album-info h3 {
@@ -49,13 +52,14 @@ body {
 .album-12{
     width: 250px;
     height:auto;
-    background-color:#BDCAE8;
+    background-color:#C39EA0;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
     justify-content: space-between;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
 }
 .album-12:hover {
     transform: scale(1.05);
@@ -66,6 +70,8 @@ body {
     width: 100%;
     height: auto;
     border-bottom: 1px solid #ccc;
+   
+
 }
 
 .album-12-info {
@@ -83,7 +89,7 @@ body {
     color: #666;
 }
 .card .cta:hover {
-    background-color:#3e8e41;
+    background-color:#C39EAO;
   }
   
   /* Animation */
@@ -138,3 +144,20 @@ body {
     width: 35px;
     text-align: center;
 }
+.paymentButton {
+    
+    width: 50%;
+    background-color: #FA255E; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    margin: 2px 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(204, 200, 200, 0.19), 0 6px 6px rgba(236, 223, 223, 0.23);
+    border-radius: 10px;
+    text-align: center;
+    
+  }
