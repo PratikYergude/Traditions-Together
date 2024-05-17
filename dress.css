@@ -1,5 +1,5 @@
 body {
-    background-color: #bdcae8;
+    background-color: #c39ea0;
     font-family: Arial, sans-serif;
     padding-top: 30px;
 }
@@ -11,13 +11,14 @@ body {
 }
 
 .album-1 {
-    width: 250px;
+    
+    width: 450px;
     height: auto;
-    background-color: #BDCAE8;
+    background-color: #F8E5E5;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
-    justify-content: space-between;
+    justify-content:center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -47,3 +48,19 @@ body {
     font-size: 14px;
     color: #666;
 }
+.paymentButton {
+    
+    width: 50%;
+    background-color: #FA255E; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    margin: 2px 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(204, 200, 200, 0.19), 0 6px 6px rgba(236, 223, 223, 0.23);
+    border-radius: 10px;
+    
+  }
