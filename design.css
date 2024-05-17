@@ -8,14 +8,14 @@ body {
 
 /* Navigation bar styling */
 .navigation {
-    background-color: #333;
-    color: #fff;
+    background-color: #ac0b36;
+    color:black;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    height: 50px;
+    
 }
 
 .nav-container {
@@ -25,12 +25,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-}
-.logo img{
-    height: 80px;
-    width: 60px;
-    padding-left: 10px;
-    
 }
 
 
@@ -58,15 +52,15 @@ body {
 .search.btn, .btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
-    color: white;
+    background-color: black ;
+    color:white;
     cursor: pointer;
     border-radius: 0 4px 4px 0;
     transition: background-color 0.3s ease;
 }
 
 .search.btn:hover, .btn:hover {
-    background-color: #777;
+    background-color:  #ac0b36;;
 }
 
 .more {
@@ -76,20 +70,20 @@ body {
 .more-btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
-    color: white;
+    background-color:  #ac0b36;;
+    color:blsck;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .more-btn:hover {
-    background-color: #777;
+    background-color:  #ac0b36;;
 }
 
 .more-menu {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: black;
     color: #333;
     top: 100%;
     right: 0;
@@ -116,20 +110,20 @@ body {
 .login .login-btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
-    color: white;
+    background-color:  #ac0b36;;
+    color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .login .login-btn:hover {
-    background-color: #777;
+    background-color:  #ac0b36;;
 }
 
 .cart {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 .cart-logo {
@@ -193,12 +187,13 @@ body {
 
 /* Footer styling */
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #ac0b36;
+    color: black;
     padding: 20px 0;
     text-align: center;
     position: relative;
     top: 40rem;
+}
 
 .footer-content {
     display: flex;
@@ -224,11 +219,18 @@ body {
 }
 
 .footer-nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-nav ul li a:hover {
-    color: #aaa;
+    color:red;
+  transition: 0.5s;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    padding-right:  20px;
+ 
 }
