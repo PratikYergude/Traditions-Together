@@ -10,10 +10,12 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 100px;
     align-items: center;
     height: 100vh;
-    background-image: url('Homepage IMG/form bg 2.jpg'); /* Ensure the path is correct */
+   margin-right: 20px;
+    background-image: url('Homepage IMG/bg6.jpg'); /* Ensure the path is correct */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,11 +23,12 @@ body {
 
 .container {
     width: 400px;
-    background-color: rgba(225,225,225,0.7); /* Slightly transparent to show background */
+    background-color:rgba(225,225,225,0.5); /* Slightly transparent to show background */
     padding: 40px;
     border-radius: 40px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .logo {
     text-align: center;
@@ -111,11 +114,11 @@ input[type="submit"]:hover {
     <h2>Login</h2>
     <form>
         <div class="form">
-            <label for="username">Username</label>
+            <label for="username"><h3>Username</h3></label>
             <input type="text" id="username" name="username" placeholder="Enter your username" required>
         </div>
         <div class="form">
-            <label for="password">Password</label>
+            <label for="password"><h3>Password</h3></label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
         </div>
         <div class="form forgot-password">
