@@ -1,6 +1,5 @@
-
 body {
-    background-color: rosybrown;
+    background-color: #c39ea0;
     font-family: Arial, sans-serif;
     padding-top: 30px;
 }
@@ -12,16 +11,18 @@ body {
 }
 
 .album-1 {
-    width: 250px;
-    height:auto;
-    background: color #c39ea0;;
+    
+    width: 450px;
+    height: auto;
+    background-color: #F8E5E5;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
-    justify-content: space-between;
+    justify-content:center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .album-1:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -47,48 +48,6 @@ body {
     font-size: 14px;
     color: #666;
 }
-
-.star-rating {
-    display: inline-block;
-    position: relative;
-    font-size: 0;
-}
-
-.star-rating input {
-    display: none;
-}
-
-.star-rating label {
-    cursor: pointer;
-    font-size: 30px;
-    color: #ccc;
-    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
-.star-rating label:before {
-    content: "★";
-}
-
-.star-rating input:checked ~ label,
-.star-rating label:hover,
-.star-rating label:hover ~ label {
-    color:#f5c518;
-    transform: scale(1.2);
-}
-
-.star-rating input:checked ~ label:hover,
-.star-rating input:checked ~ label:hover ~ label,
-.star-rating input:checked ~ label:hover ~ label ~ label,
-.star-rating input:checked ~ label:hover ~ label ~ label ~ label {
-    color:#f5c518;
-    transform: scale(1.2);
-}
-
-.star-rating label {
-    display: inline-block;
-    width: 35px;
-    text-align: center;
-}
 .paymentButton {
     
     width: 50%;
@@ -103,6 +62,5 @@ body {
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(204, 200, 200, 0.19), 0 6px 6px rgba(236, 223, 223, 0.23);
     border-radius: 10px;
-    text-align: center;
     
   }
