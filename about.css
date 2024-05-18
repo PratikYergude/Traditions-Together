@@ -58,8 +58,21 @@ body{
 .member{
     color:#fa255e;
     text-align: center;
-    font-size:2rem;
+    font-size:1rem;
     text-transform: capitalize;
+    
     
 
 }
+.nd{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
