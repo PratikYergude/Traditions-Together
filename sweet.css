@@ -1,6 +1,6 @@
 
 body {
-    background-color: #bdcae8;
+    background-color: rosybrown;
     font-family: Arial, sans-serif;
     padding-top: 30px;
 }
@@ -14,7 +14,7 @@ body {
 .album-1 {
     width: 250px;
     height:auto;
-    background-color:#BDCAE8;
+    background: color #c39ea0;;
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
@@ -47,3 +47,62 @@ body {
     font-size: 14px;
     color: #666;
 }
+
+.star-rating {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.star-rating label:before {
+    content: "★";
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color:#f5c518;
+    transform: scale(1.2);
+}
+
+.star-rating input:checked ~ label:hover,
+.star-rating input:checked ~ label:hover ~ label,
+.star-rating input:checked ~ label:hover ~ label ~ label,
+.star-rating input:checked ~ label:hover ~ label ~ label ~ label {
+    color:#f5c518;
+    transform: scale(1.2);
+}
+
+.star-rating label {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+}
+.paymentButton {
+    
+    width: 50%;
+    background-color: #FA255E; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    margin: 2px 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(204, 200, 200, 0.19), 0 6px 6px rgba(236, 223, 223, 0.23);
+    border-radius: 10px;
+    text-align: center;
+    
+  }
