@@ -8,8 +8,8 @@ body {
 
 /* Navigation bar styling */
 .navigation {
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: #fa255e;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -58,7 +58,7 @@ body {
 .search.btn, .btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
+    background-color:#fa255e;
     color: white;
     cursor: pointer;
     border-radius: 0 4px 4px 0;
@@ -66,7 +66,7 @@ body {
 }
 
 .search.btn:hover, .btn:hover {
-    background-color: #777;
+    background-color: #fa255e;;
 }
 
 .more {
@@ -76,26 +76,29 @@ body {
 .more-btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
-    color: white;
+    background-color:black;
+    color: #fa255e;;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: large;
 }
 
 .more-btn:hover {
-    background-color: #777;
+    background-color: white;
 }
 
 .more-menu {
     display: none;
     position: absolute;
-    background-color: #fff;
-    color: #333;
+    background-color: pink;
+    color: black;
     top: 100%;
     right: 0;
     min-width: 150px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
 }
 
 .more-menu a {
@@ -103,10 +106,12 @@ body {
     padding: 10px;
     text-decoration: none;
     color: inherit;
+    list-style: none;
 }
 
 .more-menu a:hover {
     background-color: #f0f0f0;
+    list-style: none;
 }
 
 .more:hover .more-menu {
@@ -116,25 +121,33 @@ body {
 .login .login-btn {
     padding: 6px 12px;
     border: none;
-    background-color: #555;
-    color: white;
+    background-color: black;
+    color:#fa255e;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
 }
+    
+
 
 .login .login-btn:hover {
-    background-color: #777;
+    background-color: white;
 }
 
 .cart {
     display: flex;
     align-items: center;
-    color: white;
+    color: #fa255e;
+    font-size: large;
+    font-weight: bold;
 }
 
 .cart-logo {
-    height: 24px;
+    height: 25px;
     margin-right: 5px;
+    
 }
 
 /* Container and card styling */
@@ -146,7 +159,7 @@ body {
 }
 
 .card {
-    background-color: #fff;
+    background-color: black;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -180,8 +193,8 @@ body {
     display: inline-block;
     margin: 10px 0;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: #fa255e;;;
+    color: black;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
@@ -193,8 +206,8 @@ body {
 
 /* Footer styling */
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: black;
+    color: #fa255e;
     padding: 20px 0;
     text-align: center;
     position: relative;
@@ -205,6 +218,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 
 .footer-content .content {
@@ -225,9 +239,11 @@ body {
 }
 
 .footer-nav ul li a {
-    color: white;
+    color: #fa255e;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: large;
+    font-weight: bold;
 }
 
 .footer-nav ul li a:hover {
